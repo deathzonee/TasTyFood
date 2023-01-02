@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" >
+    <title>TastyFood.com</title>
+</head>
+<body>
+    <div class="all">
+
+        <header class="header">
+           <a href="#" class="header__logo">
+            <i class="fa-solid fa-utensils"></i>Tasty food</i> 
+           </a>
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+                <nav class="header__navbar">
+                     <ul class="navbar__list">
+                        <li class="header__navbar-item">
+                            <a href="#home" >Trang chủ</a>
+                        </li>
+                 
+                        <li class="header__navbar-item">
+                            <a href="#about">Về chúng tôi</a>
+                       </li>
+                   
+                       <li class="header__navbar-item">
+                           <a href="#menu">Thực đơn</a>
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <a href="Book.html">Đặt bàn</a>
+                         </li>
+
+                        <li class="header__navbar-item">
+                            <a href="#contact">Liên hệ</a>
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <a href="tutorial.html">Blog</a>
+                        </li>
+                   
+                        <li class="header__navbar-item">          
+                            <div class="cart-buy"><i class="fa-solid fa-cart-shopping" id="cart-icon"></i>Giỏ hàng</div>   
+                                  <div class="scroll-bar">
+                                       <div class="cart">
+                                            <h2 class="cart-title">Đơn hàng</h2>
+                                             <div class="cart-content"></div>
+    
+                                             <div class="total">
+                                                 <div class="total-title">Tổng tiền:</div>
+                                                 <div class="total-price">$0</div>
+                                             </div>
+    
+                                                   <button class="btn-buy">Xác nhận</button>
+                                                         <i class="fa-solid fa-xmark" id="close-cart"></i>
+                                        </div>       
+                                  </div>                                
+                       </li>                    
+                    </ul>         
+               </nav>  
+                              
+        </header>  
+       <selection class="big-image"id="home">
+            <div class="big-image__content">
+                <h2>Tasty food</h2>
+                <p></p>
+               <a href="#menu" class="btn">Đặt món ngay</a>
+            </div>
+       </selection>   
+       
+       
+       <selection class="special" id="about">
+           <h1 class="special__heading">Về<span> chúng tôi</span></h1>
+           <div class="box-container">
+               
+               <div class="box">
+                   <img src="./img/4-kobe-beef-steak.jpg" alt="" class="image">
+                    <div class="content">
+                        <img src="./img/about-icon-1.png" alt="">
+                        <h3>Món chính</h3>
+                        <p>
+                            Chất lượng
+                       </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/melissa-walker-horn-gtDYwUIr9Vg-unsplash.jpg" alt="" class="image">
+                    <div class="content">
+                        <img src="./img/about-icon-2.png" alt="">
+                        <h3>Đồ uống</h3>
+                        <p>Đa dạng phong phú</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <img src="./img/trang_mieng.jfif" alt="" class="image">
+                    <div class="content">
+                        <img src="./img/ice-cream (2).png" alt="">
+                        <h3>Tráng miệng</h3>
+                            <p>Ngon miệng</p>
+                        </div>
+                    </div>
+
+                <div class="box">
+                    <img src="./img/open24 5.jpg" alt="" class="image">
+                    <div class="content">
+                        <img src="./img/waiter.png" alt="">
+                        <h3>Nhân viên</h3>
+                           <p>Phục vụ nhiệt tình chu đáo </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./img/chef.jpg" alt="" class="image">
+                    <div class="content">
+                        <img src="./img/about-icon-3.png" alt="">
+                        <h3>Đầu bếp</h3>
+                           <p>Tay nghề cao</p>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <img src="./img/wine.jfif" alt="" class="image">
+                    <div class="content">
+                        <img src="./img/whiskey.png" alt="" width="64px">
+                        <h3>Rượu</h3>
+                            <p></p>
+                    </div>
+                </div>
+                
+            </div>            
+        </selection> 
+        
+        <div class="food" id="menu">
+            <h1 class="food__heading">Thực đơn</h1>
+            <div class="food-container">
+               
+                <div class="food-box">
+                    <img src="./img/4-kobe-beef-steak.jpg" alt="" class="food-img">
+                    <h3 class="food-title">Bò kobe hảo hạng</h3>
+                    <span class="food-price">$20</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                       Đặt món ngay
+                    </div>
+                    
+                  
+                </div>
+
+                <div class="food-box">
+                    <span class="food-price">$20</span>
+                    <img src="./img/anh04-beef-steak.jpg" alt="" class="food-img">
+                    <h3 class="food-title">Beef steak</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                        Đặt món ngay
+                    </div>
+                </div>
+
+                <div class="food-box">
+                    <span class="food-price">$20</span>
+                    <img src="./img/salad.jfif" alt="" class="food-img">
+                    <h3 class="food-title">Salad</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                       Đặt món ngay
+                    </div>
+                </div>
+
+                <div class="food-box">
+                    <span class="food-price">$20</span>
+                    <img src="./img/soda.jfif" alt="" class="food-img">
+                    <h3 class="food-title">Soda</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                        Đặt món ngay
+                    </div>
+                </div>
+
+                <div class="food-box">
+                    <span class="food-price">$20</span>
+                    <img src="./img/strawberry-dessert-2191973__340.jpg" alt="" class="food-img">
+                    <h3 class="food-title">Kem</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                        Đặt món ngay
+                    </div>
+                </div>
+
+                <div class="food-box">
+                    <span class="food-price">$20</span>
+                    <img src="./img/coca.jfif" alt="" class="food-img">
+                    <h3 class="food-title">Cocacola</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                        Đặt món ngay
+                    </div>
+                </div>
+
+                <div class="food-box">
+                    <span class="food-price">$20</span>
+                    <img src="./img/Sushi-5-1024x683.jpg" alt="" class="food-img">
+                    <h3 class="food-title">Sushi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                        Đặt món ngay
+                    </div>
+                </div>
+
+                <div class="food-box">
+                    <span class="food-price">$20</span>
+                    <img src="./img/STU6249.jpg" alt="" class="food-img">
+                    <h3 class="food-title">Đùi heo muối</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                        Đặt món ngay
+                    </div>
+                </div>
+
+                <div class="food-box">
+                    <span class="food-price">$20</span>
+                    <img src="./img/MATSUSAKA-01-1024x683.jpg" alt="" class="food-img">
+                    <h3 class="food-title">Bò Matsusaka</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="add-cart">
+                        Đặt món ngay
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        
+        <section class="review" id="review">
+            <h3 class="review__heading">Bình luận</h3>
+              <form action="">
+                <div class="comment">
+                     <input type="text" placeholder="Viết bình luận">
+                </div>
+              </form>
+                
+            <div class="swiper review-slider">
+                
+                <div class="swiper-wrapper">
+                     
+                    <div class="swiper-slide box">
+                        <img src="./img/1545205549651-1433_Untitled.jpg" alt="">
+                        <p>Đồ ăn của quán rất ngon.</p>
+                        <h3>Ronaldo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="img/mtp.jfif" alt="">
+                        <p>Đồ ăn chất lượng. Nhân viên phục vụ nhiệt tình </p>
+                        <h3>Sơn tùng MTP</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="img/soobin-hoang-son.jpg" alt="">
+                        <p>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </p>
+                        <h3>Soobin hoàng sơn</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="img/1545205575139-2629_Untitled.jpg" alt="">
+                        <p>Nhà hàng thật tuyệt vời</p>
+                        <h3>Justin bieber</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+
+        <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+        <section class="footer">
+
+            <div class="footer__container" id="contact">
+        
+                <div class="footer__box">
+                    <h3> Tasty food <i class="fa-solid fa-utensils"></i> </h3>
+                    <div class="footer__share">
+                        <div class="fab fa-facebook-f"></div>
+                        <div class="fab fa-twitter"></div>
+                        <div class="fab fa-instagram"></div>
+                        <div class="fab fa-linkedin"></div>
+                    </div>
+                </div>
+        
+                <div class="footer__box">
+                    <h3>Thông tin liên hệ</h3>
+                    <div class="links"> <i class="fas fa-phone"></i> +123-456-7890 </div>
+                    <div class="links"> <i class="fas fa-envelope"></i> TastyFood@gmail.com </div>
+                    <div class="links"> <i class="fas fa-map-marker-alt"></i>Đường Lê Hồng Phong, Hưng Bình, Thành phố Vinh,</div>
+                </div>
+        
+                <div class="footer__box">
+                    <h3>Liên kết nhanh</h3>
+                    <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
+                    <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> Về chúng tôi </a>
+                    <a href="#menu" class="links"> <i class="fas fa-arrow-right"></i> Thực đơn </a>
+                    <a href="#contact" class="links"> <i class="fas fa-arrow-right"></i> Liên hệ </a>
+                   
+                </div>
+        
+                
+        
+            </div>
+            <div class="credit">Copyright <span> 2022 © TASTYFOOD. All rights reserved. </span></div>
+        </section> 
+        
+        
+               </div>
+            </div>
+        </div>
+       
+       
+    </div>
+    <script src="main.js"></script>
+    <src="https://code.jquery.com/jquery-3.6.1.min.js">
+</body>
+</html>
