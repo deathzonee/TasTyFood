@@ -775,23 +775,23 @@ selection{
 
 .footer .footer__container .footer__box h3{
     font-size: 2.5rem;
-    color:var(--black);
+    color:var(--black-color);
     padding:1rem 0;
 }
 
 .footer .footer__container .footer__box h3 i{
-    color:var(--orange);
+    color:orange;
 }
 
 .footer .footer__container .footer__box .links{
     display: block;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:var(--white-color);
     padding:1rem 0;
 }
 
 .footer .footer__container .footer__box .links i{
-    color:var(--orange);
+    color:orange;
     padding-right: .5rem;
 }
 
@@ -825,7 +825,7 @@ selection{
     border-radius: .5rem;
     background: #eee;
     font-size: 1.6rem;
-    color:var(--black);
+    color:var(--black-color);
     text-transform: none;
 }
 
@@ -846,7 +846,7 @@ selection{
 }
 
 .footer .credit span{
-    color:var(--orange);
+    color:orange;
 }
 
 
