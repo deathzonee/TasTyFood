@@ -724,7 +724,7 @@ selection{
 
 .footer .footer__container .footer__box h3{
     font-size: 2.5rem;
-    color:var(--white-color);
+    color:white;
     padding:1rem 0;
 }
 
