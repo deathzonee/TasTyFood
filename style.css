@@ -66,7 +66,7 @@ html{
 
 .header__logo{
     font-size: 2.5rem;
-    font-weight: bolder;
+    font-weight: bold;
     color:var(--white-color);
 }
 
@@ -82,7 +82,7 @@ html{
     opacity:0.8;
 }
 .header__logo i{
-    padding-right: 0.5rem;   
+    margin-right: 0.5rem;   
     color:#434242;;
 }
 
@@ -95,6 +95,7 @@ html{
 .header__navbar-item a{
     color:var(--black-color);
 }
+
 .navbar__list {
     font-size: 2rem;
     color:#404258;
@@ -109,13 +110,13 @@ html{
 .cart-buy{
    background: var(--white-color);
    padding:10px;
-   user-select: none;
    border-radius: 3px;
    cursor: pointer;
 }
 
 .cart-buy:hover{
-    opacity: 0.6;
+    opacity: 0.6; 
+    
 }
 
 .cart{
@@ -165,6 +166,7 @@ html{
 .cart-product-title{
     font-size: 1.5rem;
     text-transform: uppercase;
+    color:red ;
 }
 
 .cart-price{
@@ -231,47 +233,6 @@ html{
     
 }
 
-.modal{
-    position: fixed;
-    top:0;
-    right:0;
-    bottom: 0;
-    left:0;
-    display:flex
-}
-
-.modal__overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.4);
-}
-
-.modal__body{
-    background-color:var(--white-color);
-    margin:auto;
-    position: relative;
-    z-index: 1;
-    border-radius: 5px;
-}
-
-.auth-form__container{
-    padding: 60px 60px;
-   
-}
-
-.auth-form__header{
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.input__field{
-    border:2px #59C1BD solid;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 2.2rem;
-}
 
 form a{
     display:flex;
@@ -279,16 +240,6 @@ form a{
     
 }
 
-.btn--SignUp{
-    display:flex;
-    margin:auto;
-    border:#59C1BD solid;
-    padding:6px 12px; 
-    background-color: #59C1BD;
-    font-size: 1.5rem;
-    cursor: pointer;
-    
-}
 
 .big-image{
     display:flex;
@@ -472,8 +423,6 @@ selection{
     margin:auto;
     
 }
-
-
 
 .food .food-container .food-box{
   padding:2rem;
@@ -775,7 +724,7 @@ selection{
 
 .footer .footer__container .footer__box h3{
     font-size: 2.5rem;
-    color:var(--black-color);
+    color:var(--white-color);
     padding:1rem 0;
 }
 
@@ -842,7 +791,7 @@ selection{
     padding-top: 2.5rem;
     font-size: 2rem;
     color:var(--white-color);
-    border-top: white;
+    
 }
 
 .footer .credit span{
@@ -929,3 +878,5 @@ selection{
 }
 
 
+
+  
